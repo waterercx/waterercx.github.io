@@ -21,24 +21,61 @@ Welcome to my academic homepage. My name is Yilong Zhang, and I am a motivated r
 
 I specialize in solid mechanics and have extensive experience in numerical simulation and topology optimization. My current research focuses on the applications of elastic waves in solid mechanics.I am always open to academic discussions and look forward to potential research collaborations. If you are interested in my research or would like to explore possible opportunities for collaboration, please feel free to contact me via email at [zyl@bit.edu.cn](mailto:zyl@bit.edu.cn).
 
-# 🔥 News
-- *Jul. 2026*:  🎉🎉 Our paper on <a href="https://link.springer.com/article/10.1007/s00158-026-04395-7?utm_source=researchgate.net&utm_medium=article" target="_blank">Interface-aware multi-material topology optimization</a> was accepted for publication in <a href="https://link.springer.com/journal/158" target="_blank">Structural and Multidisciplinary Optimization</a>!
-- *Jun. 2026*:  🎉🎉 Our paper on the scalable topology optimization Framework was accepted for publication in the <a href="https://asmedigitalcollection.asme.org/mechanicaldesign" target="_blank">Journal of Mechanical Design</a>!
-- *Jan. 2026*:  🎉🎉 I participated in organizing the 2026 High-End Forum on the Development of Interdisciplinary Mechanics in Zhuhai, China.
-- *Dec. 2025*:  🎉🎉 I visited the University of Macau for a short-term academic exchange!
-- *Nov. 2025*:  🎉🎉 Congratulations to my friend Siqi Wang on the acceptance of his paper on <a href="https://www.tandfonline.com/doi/full/10.1080/15397734.2025.2605536" target="_blank">an improved finite element modeling method for triply periodic minimal surface (TPMS) structures</a> in <a href="https://www.tandfonline.com/journals/lmbd20" target="_blank">Mechanics Based Design of Structures and Machines</a>!
-- *Feb. 2025*:  🎉🎉 Congratulations to my friend Chenxu Wang on the publication of his paper on <a href="https://www.sciencedirect.com/science/article/pii/S0263822325000443?via%3Dihub" target="_blank">topology optimization of shell–infill structures for maximum stiffness and fundamental frequency</a> in <a href="https://www.sciencedirect.com/journal/composite-structures" target="_blank">Composite Structures</a>!
-- *Jun. 2025*:  🎉🎉 I received an offer of admission from Beijing Institute of Technology (BIT) and joined the <a href="http://micromechanics.cn/" target="_blank">Laboratory of Wave Mechanics</a> under the supervision of <a href="https://scholar.google.com/citations?hl=zh-CN&user=rtH1n44AAAAJ" target="_blank">Prof. Gengkai Hu</a>!
-- *Aug. 2024*:  🎉🎉 Our paper on <a href="https://link.springer.com/article/10.1007/s00158-024-03871-2?utm_source=researchgate.net&utm_medium=article" target="_blank">topology optimization of shell–infill structures</a> was accepted for publication in <a href="https://link.springer.com/journal/158" target="_blank">Structural and Multidisciplinary Optimization</a>!
-- *Jul. 2024*:  🎉🎉 I started my professional career as an Assistant Engineer, where I was responsible for integrated aircraft hydraulic systems.
-- *Jun. 2024*:  🎉🎉 I received my master's degree from the School of Aerospace Engineering, Xiamen University. I am sincerely grateful to everyone who supported and helped me throughout the past three years!
-- *May 2024*:  🎉🎉 I successfully defended my master's thesis. I sincerely thank all the committee members for their valuable comments and suggestions.
-- *Feb. 2024*:  🎉🎉 Our paper on <a href="https://asmedigitalcollection.asme.org/mechanicaldesign/article-abstract/146/9/091704/1195172/Periodic-Composite-Function-Based-Approach-for?redirectedFrom=fulltext" target="_blank">inverse infill optimization with programmable Poisson's ratio microstructures</a> was accepted for publication in the <a href="https://asmedigitalcollection.asme.org/mechanicaldesign" target="_blank">Journal of Mechanical Design</a>!
-- *Dec. 2023*:  🎉🎉 I attended the 2023 Joint Academic Annual Conference of the Mechanics Societies of Fujian and Jiangxi Provinces and gave an oral presentation!
-- *Nov. 2022*:  🎉🎉 Our paper on <a href="https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2022/86229/V03AT03A045/1150338" target="_blank">microstructure design with programmable Poisson's ratios</a> was accepted by <a href="https://asmedigitalcollection.asme.org/idetc-cie" target="_blank">ASME IDETC/CIE</a>, marking my first publication!
-- *Feb. 2022*:  🎉🎉 I completed my paper on the design of microstructures with programmable Poisson's ratios and submitted it to <a href="https://asmedigitalcollection.asme.org/idetc-cie" target="_blank">ASME IDETC/CIE</a>!
-- *Sep. 2021*: &nbsp;🎉🎉 I join the Centre for Advanced Machine Design and Data Analytics (<a href="https://www.researchgate.net/lab/CAMDDA-Huageng-Luo" target="_blank">CAMDDA</a>) and supervised by <a href="https://scholar.google.com/citations?hl=zh-CN&user=ddL-8yMAAAAJ" target="_blank">Prof. Cunfu Wang</a>  and <a href="https://aerospace.xmu.edu.cn/info/1623/41443.htm" target="_blank">Prof. Huageng Luo</a>.
-- *Jun. 2021*: &nbsp;🎉🎉 I receive my bachelor's degree from Changchun University of Technology!
+# 🔬 Research
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Structural and Multidisciplinary Optimization</div><img src='images/SMO_MMI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+* We propose an interface-aware topology optimization framework for multi-material structures using density penalization. The method implicitly identifies transition interfaces between different materials, incorporates prescribed interfacial properties into the material interpolation, and enables explicit control of interface thickness, providing a unified approach for the design of multi-material structures with controllable interface behavior.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Mechanical Design</div><img src='images/JMD_NIAD_TO.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+* We propose NIAD-TO, a scalable topology optimization framework that integrates neural-implicit representations with discrete adjoint-driven gradients. By coupling PyTorch with FEniCS/dolfin-adjoint in an end-to-end framework, the method combines flexible neural representations with accurate physics-based sensitivities and is applicable to multimaterial, multiscale, multiphysics, and nonlinear topology optimization problems.
+
+</div>
+</div>
+
+* A two-parameter voxel modeling method is proposed for the finite element analysis of triply periodic minimal surface (TPMS) structures by jointly controlling element size and minimum Jacobian. The method improves mesh convergence, numerical accuracy, and computational efficiency and also demonstrates good applicability to graded TPMS structures.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Composite Structures</div><img src='images/CS_shell_infill.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+* A topology optimization framework is proposed for shell–infill structures considering both structural stiffness and fundamental frequency. A Gaussian-function-based approach is introduced for shell extraction and thickness control, while a variable-penalization interpolation scheme is developed to suppress pseudo modes in eigenfrequency optimization, enabling simultaneous optimization of static and dynamic structural performance.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Structural and Multidisciplinary Optimization</div><img src='images/SMO_shell_infill.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+* We propose a density penalty-based topology optimization method for shell–infill structures. By penalizing both solid and void phases, structural interfaces can be identified directly during optimization, while the shell thickness can be explicitly controlled through the density penalty and filtering parameters. The method is demonstrated in both 2D and 3D shell–infill design problems.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Mechanical Design</div><img src='images/JMD_inverse_infill.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+* We propose a periodic composite function (PCF)-based approach for designing architected materials with programmable Poisson's ratios. The method enables compact parametric representation of microstructures with both positive and negative Poisson's ratios while maintaining connectivity between neighboring cells, providing an efficient framework for inverse design and spatially varying mechanical properties.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASME IDETC/CIE</div><img src='images/IDETC_infill_NPR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+* We introduce a periodic composite function-based representation for the parametric design of microstructures with programmable Poisson's ratios. The framework provides a compact geometric description of architected microstructures and establishes the foundation for subsequent inverse design of architected materials with spatially programmable mechanical properties.
+
+</div>
+</div>
+
   
 # 📝 Publications 
 
@@ -49,7 +86,7 @@ I specialize in solid mechanics and have extensive experience in numerical simul
 
 **Yilong Zhang**, Chenxu Wang, Siqi Wang, Cunfu Wang, Gengkai Hu
 
-* We propose an interface-aware topology optimization framework for multi-material structures using density penalization. The method implicitly identifies transition interfaces between different materials, incorporates prescribed interfacial properties into the material interpolation, and enables explicit control of interface thickness, providing a unified approach for the design of multi-material structures with controllable interface behavior.
+
 
 </div>
 </div>
