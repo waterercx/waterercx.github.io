@@ -21,15 +21,15 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Elio Zhang"
+  name             : "Chenxu Wang"
   avatar           : "images/myself.png"
-  bio              : "Beijing Institute of Technology"
-  location         : "Zhuhai, China"
+  bio              : "Xiamen University"
+  location         : "Xiamen, China"
   employer         :
   pubmed           : 
   googlescholar    : # e.g., "https://scholar.google.com/citations?user=Ga7jZLMAAAAJ&hl=en&oi=sra"
-  email            : "zyl@bit.edu.cn"
-  researchgate     : "https://www.researchgate.net/profile/Yilong-Zhang-13?ev=hdr_xprf"
+  email            : "wangcx225@stu.xmu.edu.cn"
+  researchgate     : "https://www.researchgate.net/profile/Chenxu-Wang-42"
   uri              :
   bitbucket        :
   codepen          :
