@@ -72,11 +72,11 @@ I specialize in solid mechanics and have extensive experience in numerical simul
 # 📝 Publications 
 
 
-- Yilong Zhang, **Chenxu Wang**, Siqi Wang, Cunfu Wang, Gengkai Hu. [Interface-aware topology optimization for multi-material structures via density penalization](https://link.springer.com/article/10.1007/s00158-026-04395-7). _Structural and Multidisciplinary Optimization_, 69(8), 196.
-- Yilong Zhang, **Chenxu Wang**, Siqi Wang, Cunfu Wang, Gengkai Hu [A Scalable Topology Optimization Framework with Neural-Implicit Representation and Adjoint-Driven Gradients](https://www.researchgate.net/publication/407202147_A_Scalable_Topology_Optimization_Framework_with_Neural-Implicit_Representation_and_Adjoint-Driven_Gradients). J. Mech. Des. (2026). 
-- Yilong Zhang, **Chenxu Wang**, Siqi Wang, Cunfu Wang, Gengkai Hu. Interface-aware topology optimization for multi-material structures via density penalization. Struct Multidisc Optim 69, 196 (2026). [https://doi.org/10.1007/s00158-026-04395-7](https://link.springer.com/article/10.1007/s00158-026-04395-7)
-- Yilong Zhang, **Chenxu Wang**, Siqi Wang, Cunfu Wang, Gengkai Hu. Interface-aware topology optimization for multi-material structures via density penalization. Struct Multidisc Optim 69, 196 (2026). [https://doi.org/10.1007/s00158-026-04395-7](https://link.springer.com/article/10.1007/s00158-026-04395-7)
-- Yilong Zhang, **Chenxu Wang**, Siqi Wang, Cunfu Wang, Gengkai Hu. Interface-aware topology optimization for multi-material structures via density penalization. Struct Multidisc Optim 69, 196 (2026). [https://doi.org/10.1007/s00158-026-04395-7](https://link.springer.com/article/10.1007/s00158-026-04395-7)
+- Yilong Zhang, **Chenxu Wang**, Siqi Wang, Cunfu Wang, Gengkai Hu. [Interface-aware topology optimization for multi-material structures via density penalization](https://link.springer.com/article/10.1007/s00158-026-04395-7). _Structural and Multidisciplinary Optimization_, 69(8), 196, 2026.
+- Yilong Zhang, **Chenxu Wang**, Siqi Wang, Cunfu Wang, Gengkai Hu [A Scalable Topology Optimization Framework with Neural-Implicit Representation and Adjoint-Driven Gradients](https://www.researchgate.net/publication/407202147_A_Scalable_Topology_Optimization_Framework_with_Neural-Implicit_Representation_and_Adjoint-Driven_Gradients). _Journal of Mechanical Design_, 2026. 
+- **Chenxu Wang**, Yilong Zhang, Wenyuan Yu, Shun Yang, Cunfu Wang, Shikai Jing. [Topology optimization of shell–infill structures for maximum stiffness and fundamental frequency](https://www.sciencedirect.com/science/article/abs/pii/S0263822325000443). _Composite Structures_, 356, 118879, 2025.
+- Yilong Zhang, **Chenxu Wang**, Wenyuan Yu, Chunyan Zhang, Shikai Jing, Cunfu Wang. [Density penalty-based interface identification in shell–infill topology optimization](https://link.springer.com/article/10.1007/s00158-024-03871-2). Structural and Multidisciplinary Optimization, 67(8), 144,2024.
+- Cunfu Wang, **Chenxu Wang**, Wenyuan Yu, Liming Lei, Cheng Yan, Yancheng You  [Achieving self-supported enclosed voids and machinable support structures in topology optimization for additive manufacturing](https://link.springer.com/article/10.1007/s00158-024-03858-z). Structural and Multidisciplinary Optimization, 67(8), 142, 2024.
 
   
 # 🎖 Honors and Awards
