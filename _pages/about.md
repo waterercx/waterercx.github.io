@@ -68,6 +68,39 @@ I specialize in solid mechanics and have extensive experience in numerical simul
 </div>
 </div>
 
+<div class="project-showcase">
+
+  <h2 class="project-showcase-title">Flexible gripper</h2>
+
+  <div class="project-showcase-layout">
+
+    <!-- 左侧：合成后的图片 -->
+    <div class="project-showcase-image">
+      <img
+        src="{{ '/images/CDIO.tif' | relative_url }}"
+        alt="Flexible gripper design and prototype"
+      >
+    </div>
+
+    <!-- 右侧：项目描述 -->
+    <div class="project-showcase-description" markdown="1">
+
+      In this project, we designed a flexible gripper for
+      fruit harvesting using a simple linkage mechanism.
+      The gripper consists of three fingers made from flexible
+      materials and designed to conform to the shape of the
+      target object.
+
+      A central lead screw mechanism coordinates the movement
+      of the fingers. Electrical control programming and wiring
+      were also implemented to enable effective grasping.
+
+    </div>
+
+  </div>
+
+</div>
+
   
 # 📝 Publications 
 
