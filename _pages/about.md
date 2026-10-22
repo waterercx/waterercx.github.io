@@ -39,7 +39,7 @@ I specialize in solid mechanics and have extensive experience in numerical simul
 </div>
 </div>
 
-* A two-parameter voxel modeling method is proposed for the finite element analysis of triply periodic minimal surface (TPMS) structures by jointly controlling element size and minimum Jacobian. The method improves mesh convergence, numerical accuracy, and computational efficiency and also demonstrates good applicability to graded TPMS structures.
+* An improved interpolation called the Solid Isotropic Material with Variable Penalization (SIMVP) is proposed in this work, which could suppress the pseudo modes in eigenvalue optimization problems. Different from the Solid Isotropic Material with Penalization (SIMP), the penalty is set as a function of the design variable to ensure the consistency of the interpolation  between the Young's modulus and the density, which would amplify the local mode effect in low-density areas to bring incorrect results. By integrating the successive staircase function, the stiffness of the low-density is compensated, eliminating the pseudo modes. The upper diagrams compare the curves between SIMP and SIMVP in the density interpolation, it is evident that the latter implements piecewise penalties and ensures the continuity and differentiability of functions. The lower diagrams illustrate the optimization of maximum fundamental frequency using SIMP and SIMVP, the former has stuck in a local optimum solution due to pseudo modes , while the latter have not seen the same problem.
 
 </div>
 </div>
@@ -47,7 +47,7 @@ I specialize in solid mechanics and have extensive experience in numerical simul
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Composite Structures</div><img src='images/CS_shell_infill.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-* A topology optimization framework is proposed for shell–infill structures considering both structural stiffness and fundamental frequency. A Gaussian-function-based approach is introduced for shell extraction and thickness control, while a variable-penalization interpolation scheme is developed to suppress pseudo modes in eigenfrequency optimization, enabling simultaneous optimization of static and dynamic structural performance.
+* In this work, we aimed to design lattices used for various functions, such as cushioning and thermal insulation. We investigated the mechanical properties of several sandwich structures incorporating truss or minimal surface lattices, and conducted thermal insulation tests. By utilizing homogenization methods, we calculated the effective material properties, enabling large-scale simulations. We also introduced the concept of programmable metamaterials, constructing a series of lattices with continuously varying Poisson's ratios for enhanced cushioning and resilience. Using coordinate transformations and Fourier series, we developed more complex lattice designs. Additionally, we considered Additive Manufacturing (AM) and Injection Molding (IM) constraints to ensure the manufacturability during the design phase. In order to simulate the resilience of the lattices, viscoelastic materials were applied. The use of implicit functions facilitated the design of multifunctional lattices from this work, making them more adaptable to practical applications.
 
 </div>
 </div>
@@ -55,7 +55,7 @@ I specialize in solid mechanics and have extensive experience in numerical simul
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Structural and Multidisciplinary Optimization</div><img src='images/SMO_shell_infill.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-* We propose a density penalty-based topology optimization method for shell–infill structures. By penalizing both solid and void phases, structural interfaces can be identified directly during optimization, while the shell thickness can be explicitly controlled through the density penalty and filtering parameters. The method is demonstrated in both 2D and 3D shell–infill design problems.
+* In this work, we proposed a method for predicting the remaining useful life (RUL) of rolling bearings of rolling bearings based on a Multi-scale Convolutional Neural Network (MS-CNN). By analyzing the energy variation trends of bearing vibration signals, we categorized the bearing's entire lifespan data into normal operation and fault degradation stages, setting RUL labels based on these different stages. Variational Mode Decomposition (VMD) was adopted to process the vibration signals, generating time-frequency representations (TFR) that served as input data for the neural network. The MS-CNN was used to extract deep features from the data. Regression was employed to establish the mapping relationship between the life labels and deep features. We have compared the prediction accuracy against linear regression and Support Vector Regression (SVR). The average absolute error of the linear regression predictions is around 1%, while the SVR method yielded an average absolute error of less than 0.5%, demonstrating superior predictive performance.
 
 </div>
 </div>
@@ -63,15 +63,7 @@ I specialize in solid mechanics and have extensive experience in numerical simul
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Mechanical Design</div><img src='images/JMD_inverse_infill.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-* We propose a periodic composite function (PCF)-based approach for designing architected materials with programmable Poisson's ratios. The method enables compact parametric representation of microstructures with both positive and negative Poisson's ratios while maintaining connectivity between neighboring cells, providing an efficient framework for inverse design and spatially varying mechanical properties.
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASME IDETC/CIE</div><img src='images/IDETC_infill_NPR.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-* We introduce a periodic composite function-based representation for the parametric design of microstructures with programmable Poisson's ratios. The framework provides a compact geometric description of architected microstructures and establishes the foundation for subsequent inverse design of architected materials with spatially programmable mechanical properties.
+* In this project, we designed a kind of flexible gripper for fruit catching through a simple linkage mechanism. The gripper consists of three fingers, all made from flexible materials and designed with a grid-like structure to ensure conformity around the object. To ensure the coordinated movement of the fingers for effective object grasping, we designed a central lead screw mechanism to control. The electrical control programming and wiring connections were also completed in this project. An underactuated driving method was adopted, allowing for the grasping of small fruits through shape locking.
 
 </div>
 </div>
@@ -79,125 +71,28 @@ I specialize in solid mechanics and have extensive experience in numerical simul
   
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Structural and Multidisciplinary Optimization</div><img src='images/SMO_MMI.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Interface-Aware Topology Optimization for Multi-Material Structures via Density Penalization](https://link.springer.com/article/10.1007/s00158-026-04395-7)
+- Yilong Zhang, **Chenxu Wang**, Siqi Wang, Cunfu Wang, Gengkai Hu. Interface-aware topology optimization for multi-material structures via density penalization. Struct Multidisc Optim 69, 196 (2026). [https://doi.org/10.1007/s00158-026-04395-7](https://link.springer.com/article/10.1007/s00158-026-04395-7)
+- Yilong Zhang, **Chenxu Wang**, Siqi Wang, Cunfu Wang, Gengkai Hu. Interface-aware topology optimization for multi-material structures via density penalization. Struct Multidisc Optim 69, 196 (2026). [https://doi.org/10.1007/s00158-026-04395-7](https://link.springer.com/article/10.1007/s00158-026-04395-7)
+- Yilong Zhang, **Chenxu Wang**, Siqi Wang, Cunfu Wang, Gengkai Hu. Interface-aware topology optimization for multi-material structures via density penalization. Struct Multidisc Optim 69, 196 (2026). [https://doi.org/10.1007/s00158-026-04395-7](https://link.springer.com/article/10.1007/s00158-026-04395-7)
+- Yilong Zhang, **Chenxu Wang**, Siqi Wang, Cunfu Wang, Gengkai Hu. Interface-aware topology optimization for multi-material structures via density penalization. Struct Multidisc Optim 69, 196 (2026). [https://doi.org/10.1007/s00158-026-04395-7](https://link.springer.com/article/10.1007/s00158-026-04395-7)
+- Yilong Zhang, **Chenxu Wang**, Siqi Wang, Cunfu Wang, Gengkai Hu. Interface-aware topology optimization for multi-material structures via density penalization. Struct Multidisc Optim 69, 196 (2026). [https://doi.org/10.1007/s00158-026-04395-7](https://link.springer.com/article/10.1007/s00158-026-04395-7)
 
-**Yilong Zhang**, Chenxu Wang, Siqi Wang, Cunfu Wang, Gengkai Hu
-
-
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Mechanical Design</div><img src='images/JMD_NIAD_TO.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[A Scalable Topology Optimization Framework with Neural-Implicit Representation and Adjoint-Driven Gradients](https://www.researchgate.net/publication/407202147_A_Scalable_Topology_Optimization_Framework_with_Neural-Implicit_Representation_and_Adjoint-Driven_Gradients)
-
-**Yilong Zhang**, Chenxu Wang, Siqi Wang, Cunfu Wang, Gengkai Hu
-
-* We propose NIAD-TO, a scalable topology optimization framework that integrates neural-implicit representations with discrete adjoint-driven gradients. By coupling PyTorch with FEniCS/dolfin-adjoint in an end-to-end framework, the method combines flexible neural representations with accurate physics-based sensitivities and is applicable to multimaterial, multiscale, multiphysics, and nonlinear topology optimization problems.
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mechanics Based Design of Structures and Machines</div><img src='images/voxel.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[An Improved Finite Element Modeling Method for Triply Periodic Minimal Surface Structures Based on Element Size and Minimum Jacobian](https://www.tandfonline.com/doi/full/10.1080/15397734.2025.2605536)
-
-Siqi Wang, Chuangyu Jiang, **Yilong Zhang**, Xiaodong Zhang, Baoqiang Zhang, Huageng Luo
-
-* A two-parameter voxel modeling method is proposed for the finite element analysis of triply periodic minimal surface (TPMS) structures by jointly controlling element size and minimum Jacobian. The method improves mesh convergence, numerical accuracy, and computational efficiency and also demonstrates good applicability to graded TPMS structures.
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Composite Structures</div><img src='images/CS_shell_infill.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Topology Optimization of Shell–Infill Structures for Maximum Stiffness and Fundamental Frequency](https://www.sciencedirect.com/science/article/pii/S0263822325000443)
-
-Chenxu Wang, **Yilong Zhang**, Wenyuan Yu, Shun Yang, Cunfu Wang, Shikai Jing
-
-* A topology optimization framework is proposed for shell–infill structures considering both structural stiffness and fundamental frequency. A Gaussian-function-based approach is introduced for shell extraction and thickness control, while a variable-penalization interpolation scheme is developed to suppress pseudo modes in eigenfrequency optimization, enabling simultaneous optimization of static and dynamic structural performance.
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Structural and Multidisciplinary Optimization</div><img src='images/SMO_shell_infill.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Density Penalty-Based Interface Identification in Shell–Infill Topology Optimization](https://link.springer.com/article/10.1007/s00158-024-03871-2)
-
-**Yilong Zhang**, Chenxu Wang, Wenyuan Yu, Chunyan Zhang, Shikai Jing, Cunfu Wang
-
-* We propose a density penalty-based topology optimization method for shell–infill structures. By penalizing both solid and void phases, structural interfaces can be identified directly during optimization, while the shell thickness can be explicitly controlled through the density penalty and filtering parameters. The method is demonstrated in both 2D and 3D shell–infill design problems.
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Mechanical Design</div><img src='images/JMD_inverse_infill.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Periodic Composite Function-Based Approach for Designing Architected Materials With Programmable Poisson's Ratios](https://asmedigitalcollection.asme.org/mechanicaldesign/article-abstract/146/9/091704/1195172/Periodic-Composite-Function-Based-Approach-for?redirectedFrom=fulltext)
-
-**Yilong Zhang**, Bifa Chen, Yuxuan Du, Ye Qiao, Cunfu Wang
-
-* We propose a periodic composite function (PCF)-based approach for designing architected materials with programmable Poisson's ratios. The method enables compact parametric representation of microstructures with both positive and negative Poisson's ratios while maintaining connectivity between neighboring cells, providing an efficient framework for inverse design and spatially varying mechanical properties.
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASME IDETC/CIE</div><img src='images/IDETC_infill_NPR.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Periodic Composite Function-Based Designing of Microstructures With Programmable Poisson Ratio](https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2022/86229/V03AT03A045/1150338)
-
-**Yilong Zhang**, Yuxuan Du, Ye Qiao, Shu Wang, Cunfu Wang
-
-* We introduce a periodic composite function-based representation for the parametric design of microstructures with programmable Poisson's ratios. The framework provides a compact geometric description of architected microstructures and establishes the foundation for subsequent inverse design of architected materials with spatially programmable mechanical properties.
-
-</div>
-</div>
-
-
-# 📝 Under Review
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/MR-GVNO.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[GA-VINO: A Geometry-Aware Variational Physics-informed Neural Operator for Mindlin-Reissner Plates](https://arxiv.org/abs/2606.16624)
-
-Siqi Wang, Daobo Sun, Yizheng Wang, **Yilong Zhang**, Yabin Jin, Xiaoying Zhuang, Timon Rabczuk
-
-- We propose MR-GVNO, a geometry-aware physics-informed neural operator that enables label-free and efficient response prediction for Mindlin–Reissner plates with irregular geometries, heterogeneous materials, and varying loads.
-</div>
-</div>
-
-
-
-# 📝 Reviewer
-
-- Journal: Discover Artificial Intelligence
-<!-- - Conference: Pacific Graphics 2026 -->
-
+  
 # 🎖 Honors and Awards
-- *Jun. 2025*, Fujian Provincial Outstanding Master's Thesis Award
-- *Jun. 2024*, The Best Paper Award in <a href="https://www.researchgate.net/lab/CAMDDA-Huageng-Luo" target="_blank">CAMDDA</a>
+- *Oct. 2026*, Fujian Provincial Outstanding Master's Thesis Award
+- *Apr. 2025*, School-level Scholarship, Xiamen University
+- *Dec. 2024*, National Scholarship, Xiamen University
+- *Dec. 2021*, University-level Scholarship, Xi'an Jiaotong University
+- *Dec. 2020*, SMC Industry Scholarship, Xi'an Jiaotong University
 
 # 📖 Educations
-* *Sep. 2025 – present*, Ph.D. in Mechanics, Zhuhai Campus, Beijing Institute of Technology (BIT), Zhuhai, China
-* *Sep. 2021 – Jun. 2024*, Master’s Degree in Energy and Power, School of Aerospace Engineering, Xiamen University (XMU), Xiamen, China
-* *Sep. 2017 – Jun. 2021*, Bachelor’s Degree in Mechanical Engineering, School of Mechatronic Engineering, Changchun University of Technology (CCUT), Changchun, China
+* *Sep. 2022 – Jun. 2025*, Master of Mechanical Engineering, Xiamen University (XMU), Xiamen, China
+* *Sep. 2018 – Jun. 2022*, Bachelor of Engineering, Xi'an Jiaotong University (XJTU), Xi'an, China
 
 
 # 💬 Conference
-* *May 2026*, The 5th China Metamaterials Conference (CMMC 2026), Jinan, China: only participate
+* *Apr. 2024*, The 3rd National Academic Forum for Young Scholars in Mechanical Design, Shaoshan, China: only participate
 - *Apr. 2023*, The 2023 Joint Academic Annual Conference of the Mechanics Societies of Fujian and Jiangxi Provinces, Putian, China: Oral Presentation
 - *Apr. 2023*, The 15th National Symposium on Structural Vibration and Dynamics & the 3rd National Workshop on Impact and Protective Engineering, Xiamen, China: only participate
-- *Nov. 2022*, The 18th China CAE Annual Conference (CCAC 2022), Xiamen, China: only participate
-- *Aug. 2022*, ASME 2022 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC/CIE 2022), St. Louis, Missouri, USA: paper presentation
 
