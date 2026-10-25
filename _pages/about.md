@@ -19,7 +19,7 @@ redirect_from:
 
 Welcome to my academic homepage! I am Chenxu Wang. I received my Bachelor of Engineering from Xi'an Jiaotong University in 2022 and my Master of Mechanical Engineering from Xiamen University in 2025. My master's research focused on frequency-based topology optimization, multifunctional lattice design, and multiscale optimization of shell–infill structures for vibration control. I conducted my research under the supervision of <a href="https://scholar.google.com/citations?hl=zh-CN&user=ddL-8yMAAAAJ" target="_blank">Prof. Cunfu Wang</a> and <a href="https://aerospace.xmu.edu.cn/info/1623/41443.htm" target="_blank">Prof. Huageng Luo</a>, both affiliated with the Center for Advanced Mechanical Design and Data Analysis (<a href="https://www.researchgate.net/lab/CAMDDA-Huageng-Luo" target="_blank">CAMDDA</a>).
 
-I currently work as a Product R&D Engineer at Xiamen Laizefeng, where I focus on structural lightweighting and simulation-based validation for additive manufacturing. My technical expertise includes topology optimization, metal additive manufacturing, numerical simulation, and metamaterial design. I plan to pursue a PhD to further investigate computational mechanics and structural design, while broadening my research into related areas.
+I currently work as a Product R&amp;D Engineer at Xiamen Laizefeng, where I focus on structural lightweighting and simulation-based validation for additive manufacturing. My technical expertise includes topology optimization, metal additive manufacturing, numerical simulation, and metamaterial design. I plan to pursue a PhD to further investigate computational mechanics and structural design, while broadening my research into related areas.
 
 # 🔬 Research
 
