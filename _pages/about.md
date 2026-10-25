@@ -48,9 +48,8 @@ I currently work as a Product R&amp;D Engineer at Xiamen Laizefeng, where I focu
      style="width: 100%; max-width: 450px; height: auto; display: block; margin: 0 auto;">></div></div>
 <div class='paper-box-text' markdown="1">
 
-We designed and evaluated lattice-based sandwich structures for thermal insulation, cushioning, and resilience. Homogenization enabled large-scale simulations, while programmable lattices with tunable Poisson’s ratios were developed using coordinate transformations and Fourier series. Manufacturing constraints for additive manufacturing and injection molding, together with viscoelastic models, were considered to address manufacturability and rebound behavior.
-
-We also developed an implicit modeling framework for programmable multimaterial lattices by combining composite periodic functions, R-function-based Boolean operations, and Heaviside mapping. A finite set of design parameters controls unit-cell topology and material distribution, enabling the design of lattices with tailored auxetic behavior or negative thermal expansion.
+* We designed and evaluated lattice-based sandwich structures for thermal insulation, cushioning, and resilience. Homogenization enabled large-scale simulations, while programmable lattices with tunable Poisson’s ratios were developed using coordinate transformations and Fourier series. Manufacturing constraints for additive manufacturing and injection molding, together with viscoelastic models, were considered to address manufacturability and rebound behavior.
+* We also developed an implicit modeling framework for programmable multimaterial lattices by combining composite periodic functions, R-function-based Boolean operations, and Heaviside mapping. A finite set of design parameters controls unit-cell topology and material distribution, enabling the design of lattices with tailored auxetic behavior or negative thermal expansion.
   
 </div>
 </div>
