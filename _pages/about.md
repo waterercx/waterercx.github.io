@@ -21,22 +21,7 @@ Welcome to my personal website! I received my bachelor's degree from Xi'an Jiaot
 
 # 🔬 Research
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/multi-scale.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-* We propose an interface-aware topology optimization framework for multi-material structures using density penalization. The method implicitly identifies transition interfaces between different materials, incorporates prescribed interfacial properties into the material interpolation, and enables explicit control of interface thickness, providing a unified approach for the design of multi-material structures with controllable interface behavior.
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/multimaterial.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-* We propose an interface-aware topology optimization framework for multi-material structures using density penalization. The method implicitly identifies transition interfaces between different materials, incorporates prescribed interfacial properties into the material interpolation, and enables explicit control of interface thickness, providing a unified approach for the design of multi-material structures with controllable interface behavior.
-
-</div>
-</div>
-
+<h2 class="project-showcase-title">Shell-infill structure optimization</h2>
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/shell-infill.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -45,27 +30,27 @@ Welcome to my personal website! I received my bachelor's degree from Xi'an Jiaot
 </div>
 </div>
 
+<h2 class="project-showcase-title">Frequency-based optimization</h2>
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/frequency.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
-* We propose NIAD-TO, a scalable topology optimization framework that integrates neural-implicit representations with discrete adjoint-driven gradients. By coupling PyTorch with FEniCS/dolfin-adjoint in an end-to-end framework, the method combines flexible neural representations with accurate physics-based sensitivities and is applicable to multimaterial, multiscale, multiphysics, and nonlinear topology optimization problems.
-
-</div>
-</div>
 
 * An improved interpolation called the Solid Isotropic Material with Variable Penalization (SIMVP) is proposed in this work, which could suppress the pseudo modes in eigenvalue optimization problems. Different from the Solid Isotropic Material with Penalization (SIMP), the penalty is set as a function of the design variable to ensure the consistency of the interpolation  between the Young's modulus and the density, which would amplify the local mode effect in low-density areas to bring incorrect results. By integrating the successive staircase function, the stiffness of the low-density is compensated, eliminating the pseudo modes. The upper diagrams compare the curves between SIMP and SIMVP in the density interpolation, it is evident that the latter implements piecewise penalties and ensures the continuity and differentiability of functions. The lower diagrams illustrate the optimization of maximum fundamental frequency using SIMP and SIMVP, the former has stuck in a local optimum solution due to pseudo modes , while the latter have not seen the same problem.
 
 </div>
 </div>
 
+
+<h2 class="project-showcase-title">Lattices design</h2>
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/lattice.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-* In this work, we aimed to design lattices used for various functions, such as cushioning and thermal insulation. We investigated the mechanical properties of several sandwich structures incorporating truss or minimal surface lattices, and conducted thermal insulation tests. By utilizing homogenization methods, we calculated the effective material properties, enabling large-scale simulations. We also introduced the concept of programmable metamaterials, constructing a series of lattices with continuously varying Poisson's ratios for enhanced cushioning and resilience. Using coordinate transformations and Fourier series, we developed more complex lattice designs. Additionally, we considered Additive Manufacturing (AM) and Injection Molding (IM) constraints to ensure the manufacturability during the design phase. In order to simulate the resilience of the lattices, viscoelastic materials were applied. The use of implicit functions facilitated the design of multifunctional lattices from this work, making them more adaptable to practical applications.
-
+* This project focuses on the design, modeling, and optimization of multifunctional lattices for applications such as cushioning and thermal insulation. We investigated the mechanical properties of sandwich structures incorporating truss-based or minimal-surface lattices and conducted thermal insulation tests. Homogenization methods were employed to derive effective material properties for large-scale simulations. To enhance cushioning and rebound performance, we developed programmable metamaterials with continuously tunable Poisson's ratios and generated more complex lattice architectures using coordinate transformations and Fourier series. Additive manufacturing (AM) and injection molding (IM) constraints were incorporated into the design process to ensure manufacturability, while viscoelastic material models were used to simulate the rebound response of the lattices.
+* Building on these developments, we further developed an enhanced implicit modeling framework for programmable multimaterial lattices. The framework integrates implicit unit-cell representations constructed using composite periodic functions with R-function-based Boolean operations. Combined with a Heaviside mapping function, this approach enables precise control over unit-cell topology and the spatial distribution of constituent materials using a finite set of design parameters. By tailoring material arrangements, the resulting lattices can be designed to enhance auxetic behavior or negative thermal expansion. Overall, the implicit modeling framework expands the design space of multifunctional lattices and facilitates the development of structures with tailored mechanical and thermal properties.
+  
 </div>
 </div>
 
+<h2 class="project-showcase-title">Remaining useful life prediction</h2>
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/undergraduate.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
