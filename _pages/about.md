@@ -23,7 +23,7 @@ I currently work as a Product R&amp;D Engineer at Xiamen Laizefeng, where I focu
 
 # 🔬 Research
 
-<h2 class="project-showcase-title">Shell-infill structure optimization</h2>
+<h2 class="project-showcase-title">Shell-Infill Structure Optimization</h2>
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/shell-infill.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -33,7 +33,7 @@ I currently work as a Product R&amp;D Engineer at Xiamen Laizefeng, where I focu
 </div>
 </div>
 
-<h2 class="project-showcase-title">Frequency-based optimization</h2>
+<h2 class="project-showcase-title">Frequency-Based Optimization</h2>
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/frequency.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -43,26 +43,26 @@ I currently work as a Product R&amp;D Engineer at Xiamen Laizefeng, where I focu
 </div>
 
 
-<h2 class="project-showcase-title">Lattices design</h2>
+<h2 class="project-showcase-title">Multifunctional Lattice Design</h2>
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/lattice.png' alt="sym" width="100%">></div></div>
 <div class='paper-box-text' markdown="1">
 
-* This project focuses on the design, modeling, and optimization of multifunctional lattices for applications such as cushioning and thermal insulation. We investigated the mechanical properties of sandwich structures incorporating truss-based or minimal-surface lattices and conducted thermal insulation tests. Homogenization methods were employed to derive effective material properties for large-scale simulations. To enhance cushioning and rebound performance, we developed programmable metamaterials with continuously tunable Poisson’s ratios and generated more complex lattice architectures using coordinate transformations and Fourier series. Additive manufacturing (AM) and injection molding (IM) constraints were incorporated into the design process to ensure manufacturability, while viscoelastic material models were used to simulate the rebound response of the lattices.
-* We also developed an enhanced implicit modeling framework for programmable multimaterial lattices. The framework combines implicit unit-cell representations based on composite periodic functions with R-function-based Boolean operations. Combined with a Heaviside mapping function, this approach enables precise control over unit-cell topology and the spatial distribution of constituent materials using a finite set of design parameters. By tailoring material arrangements, the resulting lattices can be designed to exhibit auxetic behavior or negative thermal expansion. Overall, the implicit modeling framework expands the design space of multifunctional lattices and facilitates the development of structures with tailored mechanical and thermal properties.
+* This project explores multifunctional lattices for cushioning, resilience, and thermal insulation. We investigated sandwich structures incorporating truss-based and minimal-surface lattices, conducted thermal insulation tests, and employed homogenization for large-scale simulations. Programmable lattices with tunable Poisson’s ratios were designed using coordinate transformations and Fourier series. Additive manufacturing and injection molding constraints, together with viscoelastic models, were considered to address manufacturability and rebound behavior.
+* We also developed an implicit modeling framework for programmable multimaterial lattices by combining composite periodic functions, R-function-based Boolean operations, and Heaviside mapping. Using a finite set of design parameters, the framework enables precise control over unit-cell topology and material distribution, facilitating the design of lattices with tailored auxetic behavior or negative thermal expansion.
   
 </div>
 </div>
 
-<h2 class="project-showcase-title">Remaining useful life prediction</h2>
+<h2 class="project-showcase-title">Remaining Useful Life Prediction</h2>
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/undergraduate.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-* In this work, we proposed a method for predicting the remaining useful life (RUL) of rolling bearings of rolling bearings based on a Multi-scale Convolutional Neural Network (MS-CNN). By analyzing the energy variation trends of bearing vibration signals, we categorized the bearing's entire lifespan data into normal operation and fault degradation stages, setting RUL labels based on these different stages. Variational Mode Decomposition (VMD) was adopted to process the vibration signals, generating time-frequency representations (TFR) that served as input data for the neural network. The MS-CNN was used to extract deep features from the data. Regression was employed to establish the mapping relationship between the life labels and deep features. We have compared the prediction accuracy against linear regression and Support Vector Regression (SVR). The average absolute error of the linear regression predictions is around 1%, while the SVR method yielded an average absolute error of less than 0.5%, demonstrating superior predictive performance.
+* In this work, we proposed a method for predicting the remaining useful life (RUL) of rolling bearings based on a Multi-scale Convolutional Neural Network (MS-CNN). By analyzing the energy variation trends of bearing vibration signals, we categorized the bearing's entire lifespan data into normal operation and fault degradation stages, setting RUL labels based on these different stages. Variational Mode Decomposition (VMD) was adopted to process the vibration signals, generating time-frequency representations (TFR) that served as input data for the neural network. The MS-CNN was used to extract deep features from the data. Regression was employed to establish the mapping relationship between the life labels and deep features. We have compared the prediction accuracy against linear regression and Support Vector Regression (SVR). The average absolute error of the linear regression predictions is around 1%, while the SVR method yielded an average absolute error of less than 0.5%, demonstrating superior predictive performance.
 
 </div>
 </div>
 
-<h2 class="project-showcase-title">Flexible gripper</h2>
+<h2 class="project-showcase-title">Flexible Gripper</h2>
 <div class='paper-box'> <div class='paper-box-image'><div><img src='images/CDIO.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -95,7 +95,7 @@ I currently work as a Product R&amp;D Engineer at Xiamen Laizefeng, where I focu
 
 
 # 💬 Conference
-* *Apr. 2024*, The 3rd National Academic Forum for Young Scholars in Mechanical Design, Shaoshan, China: only participate
+* *Apr. 2024*, The 3rd National Academic Forum for Young Scholars in Mechanical Design, Shaoshan, China: Attendee
 - *Apr. 2023*, The 2023 Joint Academic Annual Conference of the Mechanics Societies of Fujian and Jiangxi Provinces, Putian, China: Oral Presentation
-- *Apr. 2023*, The 15th National Symposium on Structural Vibration and Dynamics & the 3rd National Workshop on Impact and Protective Engineering, Xiamen, China: only participate
+- *Apr. 2023*, The 15th National Symposium on Structural Vibration and Dynamics & the 3rd National Workshop on Impact and Protective Engineering, Xiamen, China: Attendee
 
