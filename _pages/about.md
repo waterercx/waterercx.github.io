@@ -44,12 +44,11 @@ I currently work as a Product R&amp;D Engineer at Xiamen Laizefeng, where I focu
 
 
 <h2 class="project-showcase-title">Lattices design</h2>
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/lattice.png' alt="Multifunctional lattice designs"
-     style="width: 100%; max-width: 450px; height: auto; display: block; margin: 0 auto;">></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/lattice.png' alt="sym" width="100%">></div></div>
 <div class='paper-box-text' markdown="1">
 
-* We designed and evaluated lattice-based sandwich structures for thermal insulation, cushioning, and resilience. Homogenization enabled large-scale simulations, while programmable lattices with tunable Poisson’s ratios were developed using coordinate transformations and Fourier series. Manufacturing constraints for additive manufacturing and injection molding, together with viscoelastic models, were considered to address manufacturability and rebound behavior.
-* We also developed an implicit modeling framework for programmable multimaterial lattices by combining composite periodic functions, R-function-based Boolean operations, and Heaviside mapping. A finite set of design parameters controls unit-cell topology and material distribution, enabling the design of lattices with tailored auxetic behavior or negative thermal expansion.
+* This project focuses on the design, modeling, and optimization of multifunctional lattices for applications such as cushioning and thermal insulation. We investigated the mechanical properties of sandwich structures incorporating truss-based or minimal-surface lattices and conducted thermal insulation tests. Homogenization methods were employed to derive effective material properties for large-scale simulations. To enhance cushioning and rebound performance, we developed programmable metamaterials with continuously tunable Poisson’s ratios and generated more complex lattice architectures using coordinate transformations and Fourier series. Additive manufacturing (AM) and injection molding (IM) constraints were incorporated into the design process to ensure manufacturability, while viscoelastic material models were used to simulate the rebound response of the lattices.
+* We also developed an enhanced implicit modeling framework for programmable multimaterial lattices. The framework combines implicit unit-cell representations based on composite periodic functions with R-function-based Boolean operations. Combined with a Heaviside mapping function, this approach enables precise control over unit-cell topology and the spatial distribution of constituent materials using a finite set of design parameters. By tailoring material arrangements, the resulting lattices can be designed to exhibit auxetic behavior or negative thermal expansion. Overall, the implicit modeling framework expands the design space of multifunctional lattices and facilitates the development of structures with tailored mechanical and thermal properties.
   
 </div>
 </div>
