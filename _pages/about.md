@@ -89,12 +89,12 @@ I currently work as a Product R&amp;D Engineer at Xiamen Laizefeng, where I focu
 - *Dec. 2021*, University-level Scholarship, Xi'an Jiaotong University
 - *Dec. 2020*, SMC Industry Scholarship, Xi'an Jiaotong University
 
-# 📖 Educations
+# 📖 Education
 * *Sep. 2022 – Jun. 2025*, Master of Mechanical Engineering, Xiamen University (XMU), Xiamen, China
 * *Sep. 2018 – Jun. 2022*, Bachelor of Engineering, Xi'an Jiaotong University (XJTU), Xi'an, China
 
 
-# 💬 Conference
+# 💬 Conferences
 * *Apr. 2024*, The 3rd National Academic Forum for Young Scholars in Mechanical Design, Shaoshan, China: Attendee
 - *Apr. 2023*, The 2023 Joint Academic Annual Conference of the Mechanics Societies of Fujian and Jiangxi Provinces, Putian, China: Oral Presentation
 - *Apr. 2023*, The 15th National Symposium on Structural Vibration and Dynamics & the 3rd National Workshop on Impact and Protective Engineering, Xiamen, China: Attendee
