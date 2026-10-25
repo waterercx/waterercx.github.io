@@ -21,7 +21,7 @@ Welcome to my personal website! I received my bachelor's degree from Xi'an Jiaot
 
 # 🔬 Research
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Structural and Multidisciplinary Optimization</div><img src='images/SMO_MMI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/multi-scale.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 * We propose an interface-aware topology optimization framework for multi-material structures using density penalization. The method implicitly identifies transition interfaces between different materials, incorporates prescribed interfacial properties into the material interpolation, and enables explicit control of interface thickness, providing a unified approach for the design of multi-material structures with controllable interface behavior.
@@ -29,7 +29,23 @@ Welcome to my personal website! I received my bachelor's degree from Xi'an Jiaot
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Mechanical Design</div><img src='images/JMD_NIAD_TO.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/multimaterial.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+* We propose an interface-aware topology optimization framework for multi-material structures using density penalization. The method implicitly identifies transition interfaces between different materials, incorporates prescribed interfacial properties into the material interpolation, and enables explicit control of interface thickness, providing a unified approach for the design of multi-material structures with controllable interface behavior.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/shell-infill.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+* We propose an interface-aware topology optimization framework for multi-material structures using density penalization. The method implicitly identifies transition interfaces between different materials, incorporates prescribed interfacial properties into the material interpolation, and enables explicit control of interface thickness, providing a unified approach for the design of multi-material structures with controllable interface behavior.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/frequency.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 * We propose NIAD-TO, a scalable topology optimization framework that integrates neural-implicit representations with discrete adjoint-driven gradients. By coupling PyTorch with FEniCS/dolfin-adjoint in an end-to-end framework, the method combines flexible neural representations with accurate physics-based sensitivities and is applicable to multimaterial, multiscale, multiphysics, and nonlinear topology optimization problems.
@@ -42,7 +58,7 @@ Welcome to my personal website! I received my bachelor's degree from Xi'an Jiaot
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Composite Structures</div><img src='images/CS_shell_infill.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/lattice.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 * In this work, we aimed to design lattices used for various functions, such as cushioning and thermal insulation. We investigated the mechanical properties of several sandwich structures incorporating truss or minimal surface lattices, and conducted thermal insulation tests. By utilizing homogenization methods, we calculated the effective material properties, enabling large-scale simulations. We also introduced the concept of programmable metamaterials, constructing a series of lattices with continuously varying Poisson's ratios for enhanced cushioning and resilience. Using coordinate transformations and Fourier series, we developed more complex lattice designs. Additionally, we considered Additive Manufacturing (AM) and Injection Molding (IM) constraints to ensure the manufacturability during the design phase. In order to simulate the resilience of the lattices, viscoelastic materials were applied. The use of implicit functions facilitated the design of multifunctional lattices from this work, making them more adaptable to practical applications.
@@ -50,7 +66,7 @@ Welcome to my personal website! I received my bachelor's degree from Xi'an Jiaot
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Structural and Multidisciplinary Optimization</div><img src='images/SMO_shell_infill.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/undergraduate.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 * In this work, we proposed a method for predicting the remaining useful life (RUL) of rolling bearings of rolling bearings based on a Multi-scale Convolutional Neural Network (MS-CNN). By analyzing the energy variation trends of bearing vibration signals, we categorized the bearing's entire lifespan data into normal operation and fault degradation stages, setting RUL labels based on these different stages. Variational Mode Decomposition (VMD) was adopted to process the vibration signals, generating time-frequency representations (TFR) that served as input data for the neural network. The MS-CNN was used to extract deep features from the data. Regression was employed to establish the mapping relationship between the life labels and deep features. We have compared the prediction accuracy against linear regression and Support Vector Regression (SVR). The average absolute error of the linear regression predictions is around 1%, while the SVR method yielded an average absolute error of less than 0.5%, demonstrating superior predictive performance.
