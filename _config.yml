@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Chenxu Wang"
-description              : "Ph.D. student in Beijing Institute of Technology（Zhuhai）, focusing on Elastic Wave Mechanics in Solids, Zero-Energy Mode Metamaterials and Topology Optimization. "
+description              : "Researcher in computational mechanics and structural design, with interests in topology optimization, additive manufacturing, metamaterial design, and vibration control. "
 repository               : "waterercx/waterercx.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Chenxu Wang"
   avatar           : "images/myself.png"
-  bio              : "Xiamen University"
+  bio              : #"Xiamen University"
   location         : "Xiamen, China"
   employer         :
   pubmed           : 
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "yLong229"
+  github           : "waterercx"
   google_plus      :
   keybase          :
   instagram        :
